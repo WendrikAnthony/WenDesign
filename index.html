@@ -66,7 +66,7 @@
   <meta name="twitter:description" content="Sites profissionais que fazem seu negócio vender. A partir de R$497, entrega em 48h após envio do material. Feito do zero, sem template.">
   <meta name="twitter:image" content="https://wendrikanthony.github.io/WenDesign/img/og-image.webp">
   <meta name="theme-color" content="#524646" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#f8f8f8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#FCF2E5" media="(prefers-color-scheme: light)">
   <meta name="msapplication-TileColor" content="#524646">
   <!-- VOID-NOTE: img-src está fechado de propósito. Toda imagem usada no site (incluindo Unsplash) deve ser baixada e salva em /img/ antes do deploy. Nunca referenciar URL externa em src="". -->
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' 'unsafe-inline'; form-action 'self' https://formspree.io; img-src 'self' data:; connect-src 'self' https://formspree.io;">
@@ -136,16 +136,16 @@
     }
 
     .light {
-      --bg: #f8f8f8;
-      --surface: #ffffff;
-      --surface-2: #f0f0f0;
-      --surface-3: #e8e8e8;
-      --text: #111;
-      --text-muted: #555;
-      --text-dim: #999;
-      --border: rgba(0,0,0,0.06);
-      --border-light: rgba(0,0,0,0.1);
-      --bg-rgb: 248, 248, 248;
+      --bg: #FCF2E5;
+      --surface: #FFFFFF;
+      --surface-2: #F5EBDD;
+      --surface-3: #EFE3D1;
+      --text: #524646;
+      --text-muted: #6D6B5F;
+      --text-dim: #A8A492;
+      --border: rgba(82,70,70,0.08);
+      --border-light: rgba(82,70,70,0.14);
+      --bg-rgb: 252, 242, 229;
       --glow: rgba(var(--accent-rgb), 0.16);
       --shadow: 0 4px 24px rgba(0,0,0,0.06);
     }
@@ -1523,7 +1523,7 @@
 
     @media (max-width: 768px) {
       .nav-links { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: rgba(10,10,10,0.98); backdrop-filter: blur(24px); padding: var(--space-5); gap: var(--space-5); border-bottom: 1px solid var(--border); flex-direction: column; }
-      .light .nav-links { background: rgba(248,248,248,0.98); }
+      .light .nav-links { background: rgba(252,242,229,0.98); }
       .nav-links.active { display: flex; }
       .nav-toggle { display: flex; }
       .nav-links .theme-toggle { align-self: flex-start; }
